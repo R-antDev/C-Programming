@@ -1,18 +1,7 @@
 # ninja log v5
 6	296	7245069167167336	CMakeFiles/class1.dir/main.c.obj	ca69cc9b9122f5df
-57	875	7247031094850758	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
-880	1442	7247031100315398	class1.exe	3661985903ae32c0
-5	809	7246945250535327	build.ninja	eb049f9c2bef2918
-8	1473	7245102038921985	CMakeFiles/class1.dir/conditional_statement.c.obj	1d5e570d9f9d6827
-41	1581	7246944743662860	CMakeFiles/class1.dir/variable_declaration_and_summation.c.obj	f32f3883e66bcf0
-19	297	7247031484621301	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
-299	742	7247031488749755	class1.exe	3661985903ae32c0
-24	774	7247047479337365	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
-776	1480	7247047486247084	class1.exe	3661985903ae32c0
-7	646	7247048894572839	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
-655	1413	7247048901985223	class1.exe	3661985903ae32c0
-4	391	7247049424306733	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
-56	897	7247050293361198	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
-37	637	7247055175429924	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
 15	540	7247058174359001	CMakeFiles/class1.dir/class_1_tasks.c.obj	b3a3f9d86d272d38
 6	647	7247058766733486	class1.exe	3661985903ae32c0
+5	809	7247554978378614	build.ninja	eb049f9c2bef2918
+8	1473	7245102038921985	CMakeFiles/class1.dir/conditional_statement.c.obj	1d5e570d9f9d6827
+41	1581	7246944743662860	CMakeFiles/class1.dir/variable_declaration_and_summation.c.obj	f32f3883e66bcf0

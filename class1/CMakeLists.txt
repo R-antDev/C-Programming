@@ -3,6 +3,7 @@ project(class1 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(class1 "class_1_tasks.c"
-
+add_executable(
+        class1 "class_1_tasks.c"
+        class1/class_1.c "class_1.c"
 )

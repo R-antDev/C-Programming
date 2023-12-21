@@ -3,7 +3,7 @@
 
 int number = 81;
 // grade calculator with nested if
-void cgpaCalc(int num){
+void gpaCalc(int num){
     if(num < 0 || num > 100){
         printf("Invalid Number.");
     } else {
@@ -69,7 +69,7 @@ void userPass(const char *user, const char *pass) {
 }
 
 int main() {
-    cgpaCalc(number);
+    gpaCalc(number);
     evenORodd(number);
     positive_Negative(number);
     calculator(num1, num2);
