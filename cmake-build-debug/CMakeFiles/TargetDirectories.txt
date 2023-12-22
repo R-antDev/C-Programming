@@ -1,3 +1,3 @@
-C:/Ant-Dev/C Programing/cmake-build-debug/CMakeFiles/C_Programing.dir
-C:/Ant-Dev/C Programing/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Ant-Dev/C Programing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Ant-Dev/C-Programming/cmake-build-debug/CMakeFiles/C_Programing.dir
+C:/Ant-Dev/C-Programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Ant-Dev/C-Programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
