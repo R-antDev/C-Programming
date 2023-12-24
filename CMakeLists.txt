@@ -4,5 +4,5 @@ project(C_Programing C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(C_Programing
-        beecrowd_solutions/1004.c
+        beecrowd_solutions/1011.c
 )
