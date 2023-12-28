@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Ant-Dev/C-Programming/beecrowd_solutions/1011.c" "CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj" "gcc" "CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj.d"
+  "C:/Ant-Dev/C-Programming/beecrowd_solutions/1012.c" "CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj" "gcc" "CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

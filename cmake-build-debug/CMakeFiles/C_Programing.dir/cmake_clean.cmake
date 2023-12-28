@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj"
-  "CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj.d"
+  "CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj"
+  "CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj.d"
   "C_Programing.exe"
   "C_Programing.exe.manifest"
   "C_Programing.pdb"

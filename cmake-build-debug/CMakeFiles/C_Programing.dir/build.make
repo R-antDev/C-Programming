@@ -68,28 +68,28 @@ include CMakeFiles/C_Programing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_Programing.dir/flags.make
 
-CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj: CMakeFiles/C_Programing.dir/flags.make
-CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj: C:/Ant-Dev/C-Programming/beecrowd_solutions/1011.c
-CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj: CMakeFiles/C_Programing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj -MF CMakeFiles\C_Programing.dir\beecrowd_solutions\1011.c.obj.d -o CMakeFiles\C_Programing.dir\beecrowd_solutions\1011.c.obj -c C:\Ant-Dev\C-Programming\beecrowd_solutions\1011.c
+CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj: CMakeFiles/C_Programing.dir/flags.make
+CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj: C:/Ant-Dev/C-Programming/beecrowd_solutions/1012.c
+CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj: CMakeFiles/C_Programing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj -MF CMakeFiles\C_Programing.dir\beecrowd_solutions\1012.c.obj.d -o CMakeFiles\C_Programing.dir\beecrowd_solutions\1012.c.obj -c C:\Ant-Dev\C-Programming\beecrowd_solutions\1012.c
 
-CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ant-Dev\C-Programming\beecrowd_solutions\1011.c > CMakeFiles\C_Programing.dir\beecrowd_solutions\1011.c.i
+CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ant-Dev\C-Programming\beecrowd_solutions\1012.c > CMakeFiles\C_Programing.dir\beecrowd_solutions\1012.c.i
 
-CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ant-Dev\C-Programming\beecrowd_solutions\1011.c -o CMakeFiles\C_Programing.dir\beecrowd_solutions\1011.c.s
+CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ant-Dev\C-Programming\beecrowd_solutions\1012.c -o CMakeFiles\C_Programing.dir\beecrowd_solutions\1012.c.s
 
 # Object files for target C_Programing
 C_Programing_OBJECTS = \
-"CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj"
+"CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj"
 
 # External object files for target C_Programing
 C_Programing_EXTERNAL_OBJECTS =
 
-C_Programing.exe: CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj
+C_Programing.exe: CMakeFiles/C_Programing.dir/beecrowd_solutions/1012.c.obj
 C_Programing.exe: CMakeFiles/C_Programing.dir/build.make
 C_Programing.exe: CMakeFiles/C_Programing.dir/linkLibs.rsp
 C_Programing.exe: CMakeFiles/C_Programing.dir/objects1.rsp

@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "C_Programing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1012::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1012-Debug-7c7b559e9390fb1c8495.json",
+					"name" : "1012",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1013::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1013-Debug-3f8b7a8719d574b9652d.json",
+					"name" : "1013",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1014::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1014-Debug-645d2c09250f6ee44f47.json",
+					"name" : "1014",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1015::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1015-Debug-9bad626e02f94b5083d9.json",
+					"name" : "1015",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Ant-Dev/C-Programming/cmake-build-debug",
+		"source" : "C:/Ant-Dev/C-Programming"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

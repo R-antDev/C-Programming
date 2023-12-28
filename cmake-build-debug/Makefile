@@ -116,41 +116,152 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named C_Programing
+# Target rules for targets named 1012
 
 # Build rule for target.
-C_Programing: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 C_Programing
-.PHONY : C_Programing
+1012: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1012
+.PHONY : 1012
 
 # fast build rule for target.
-C_Programing/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Programing.dir\build.make CMakeFiles/C_Programing.dir/build
-.PHONY : C_Programing/fast
+1012/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1012.dir\build.make CMakeFiles/1012.dir/build
+.PHONY : 1012/fast
 
-beecrowd_solutions/1011.obj: beecrowd_solutions/1011.c.obj
-.PHONY : beecrowd_solutions/1011.obj
+#=============================================================================
+# Target rules for targets named 1013
+
+# Build rule for target.
+1013: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1013
+.PHONY : 1013
+
+# fast build rule for target.
+1013/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1013.dir\build.make CMakeFiles/1013.dir/build
+.PHONY : 1013/fast
+
+#=============================================================================
+# Target rules for targets named 1014
+
+# Build rule for target.
+1014: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1014
+.PHONY : 1014
+
+# fast build rule for target.
+1014/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1014.dir\build.make CMakeFiles/1014.dir/build
+.PHONY : 1014/fast
+
+#=============================================================================
+# Target rules for targets named 1015
+
+# Build rule for target.
+1015: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1015
+.PHONY : 1015
+
+# fast build rule for target.
+1015/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1015.dir\build.make CMakeFiles/1015.dir/build
+.PHONY : 1015/fast
+
+beecrowd_solutions/1012.obj: beecrowd_solutions/1012.c.obj
+.PHONY : beecrowd_solutions/1012.obj
 
 # target to build an object file
-beecrowd_solutions/1011.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Programing.dir\build.make CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.obj
-.PHONY : beecrowd_solutions/1011.c.obj
+beecrowd_solutions/1012.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1012.dir\build.make CMakeFiles/1012.dir/beecrowd_solutions/1012.c.obj
+.PHONY : beecrowd_solutions/1012.c.obj
 
-beecrowd_solutions/1011.i: beecrowd_solutions/1011.c.i
-.PHONY : beecrowd_solutions/1011.i
+beecrowd_solutions/1012.i: beecrowd_solutions/1012.c.i
+.PHONY : beecrowd_solutions/1012.i
 
 # target to preprocess a source file
-beecrowd_solutions/1011.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Programing.dir\build.make CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.i
-.PHONY : beecrowd_solutions/1011.c.i
+beecrowd_solutions/1012.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1012.dir\build.make CMakeFiles/1012.dir/beecrowd_solutions/1012.c.i
+.PHONY : beecrowd_solutions/1012.c.i
 
-beecrowd_solutions/1011.s: beecrowd_solutions/1011.c.s
-.PHONY : beecrowd_solutions/1011.s
+beecrowd_solutions/1012.s: beecrowd_solutions/1012.c.s
+.PHONY : beecrowd_solutions/1012.s
 
 # target to generate assembly for a file
-beecrowd_solutions/1011.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C_Programing.dir\build.make CMakeFiles/C_Programing.dir/beecrowd_solutions/1011.c.s
-.PHONY : beecrowd_solutions/1011.c.s
+beecrowd_solutions/1012.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1012.dir\build.make CMakeFiles/1012.dir/beecrowd_solutions/1012.c.s
+.PHONY : beecrowd_solutions/1012.c.s
+
+beecrowd_solutions/1013.obj: beecrowd_solutions/1013.c.obj
+.PHONY : beecrowd_solutions/1013.obj
+
+# target to build an object file
+beecrowd_solutions/1013.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1013.dir\build.make CMakeFiles/1013.dir/beecrowd_solutions/1013.c.obj
+.PHONY : beecrowd_solutions/1013.c.obj
+
+beecrowd_solutions/1013.i: beecrowd_solutions/1013.c.i
+.PHONY : beecrowd_solutions/1013.i
+
+# target to preprocess a source file
+beecrowd_solutions/1013.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1013.dir\build.make CMakeFiles/1013.dir/beecrowd_solutions/1013.c.i
+.PHONY : beecrowd_solutions/1013.c.i
+
+beecrowd_solutions/1013.s: beecrowd_solutions/1013.c.s
+.PHONY : beecrowd_solutions/1013.s
+
+# target to generate assembly for a file
+beecrowd_solutions/1013.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1013.dir\build.make CMakeFiles/1013.dir/beecrowd_solutions/1013.c.s
+.PHONY : beecrowd_solutions/1013.c.s
+
+beecrowd_solutions/1014.obj: beecrowd_solutions/1014.c.obj
+.PHONY : beecrowd_solutions/1014.obj
+
+# target to build an object file
+beecrowd_solutions/1014.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1014.dir\build.make CMakeFiles/1014.dir/beecrowd_solutions/1014.c.obj
+.PHONY : beecrowd_solutions/1014.c.obj
+
+beecrowd_solutions/1014.i: beecrowd_solutions/1014.c.i
+.PHONY : beecrowd_solutions/1014.i
+
+# target to preprocess a source file
+beecrowd_solutions/1014.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1014.dir\build.make CMakeFiles/1014.dir/beecrowd_solutions/1014.c.i
+.PHONY : beecrowd_solutions/1014.c.i
+
+beecrowd_solutions/1014.s: beecrowd_solutions/1014.c.s
+.PHONY : beecrowd_solutions/1014.s
+
+# target to generate assembly for a file
+beecrowd_solutions/1014.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1014.dir\build.make CMakeFiles/1014.dir/beecrowd_solutions/1014.c.s
+.PHONY : beecrowd_solutions/1014.c.s
+
+beecrowd_solutions/1015.obj: beecrowd_solutions/1015.c.obj
+.PHONY : beecrowd_solutions/1015.obj
+
+# target to build an object file
+beecrowd_solutions/1015.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1015.dir\build.make CMakeFiles/1015.dir/beecrowd_solutions/1015.c.obj
+.PHONY : beecrowd_solutions/1015.c.obj
+
+beecrowd_solutions/1015.i: beecrowd_solutions/1015.c.i
+.PHONY : beecrowd_solutions/1015.i
+
+# target to preprocess a source file
+beecrowd_solutions/1015.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1015.dir\build.make CMakeFiles/1015.dir/beecrowd_solutions/1015.c.i
+.PHONY : beecrowd_solutions/1015.c.i
+
+beecrowd_solutions/1015.s: beecrowd_solutions/1015.c.s
+.PHONY : beecrowd_solutions/1015.s
+
+# target to generate assembly for a file
+beecrowd_solutions/1015.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1015.dir\build.make CMakeFiles/1015.dir/beecrowd_solutions/1015.c.s
+.PHONY : beecrowd_solutions/1015.c.s
 
 # Help Target
 help:
@@ -160,10 +271,22 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... C_Programing
-	@echo ... beecrowd_solutions/1011.obj
-	@echo ... beecrowd_solutions/1011.i
-	@echo ... beecrowd_solutions/1011.s
+	@echo ... 1012
+	@echo ... 1013
+	@echo ... 1014
+	@echo ... 1015
+	@echo ... beecrowd_solutions/1012.obj
+	@echo ... beecrowd_solutions/1012.i
+	@echo ... beecrowd_solutions/1012.s
+	@echo ... beecrowd_solutions/1013.obj
+	@echo ... beecrowd_solutions/1013.i
+	@echo ... beecrowd_solutions/1013.s
+	@echo ... beecrowd_solutions/1014.obj
+	@echo ... beecrowd_solutions/1014.i
+	@echo ... beecrowd_solutions/1014.s
+	@echo ... beecrowd_solutions/1015.obj
+	@echo ... beecrowd_solutions/1015.i
+	@echo ... beecrowd_solutions/1015.s
 .PHONY : help
 
 
