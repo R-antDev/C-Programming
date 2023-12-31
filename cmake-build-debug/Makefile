@@ -167,6 +167,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1015.dir\build.make CMakeFiles/1015.dir/build
 .PHONY : 1015/fast
 
+#=============================================================================
+# Target rules for targets named class3
+
+# Build rule for target.
+class3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class3
+.PHONY : class3
+
+# fast build rule for target.
+class3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/build
+.PHONY : class3/fast
+
 beecrowd_solutions/1012.obj: beecrowd_solutions/1012.c.obj
 .PHONY : beecrowd_solutions/1012.obj
 
@@ -263,6 +276,30 @@ beecrowd_solutions/1015.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1015.dir\build.make CMakeFiles/1015.dir/beecrowd_solutions/1015.c.s
 .PHONY : beecrowd_solutions/1015.c.s
 
+class3/class_3.obj: class3/class_3.c.obj
+.PHONY : class3/class_3.obj
+
+# target to build an object file
+class3/class_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/class3/class_3.c.obj
+.PHONY : class3/class_3.c.obj
+
+class3/class_3.i: class3/class_3.c.i
+.PHONY : class3/class_3.i
+
+# target to preprocess a source file
+class3/class_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/class3/class_3.c.i
+.PHONY : class3/class_3.c.i
+
+class3/class_3.s: class3/class_3.c.s
+.PHONY : class3/class_3.s
+
+# target to generate assembly for a file
+class3/class_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/class3/class_3.c.s
+.PHONY : class3/class_3.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -275,6 +312,7 @@ help:
 	@echo ... 1013
 	@echo ... 1014
 	@echo ... 1015
+	@echo ... class3
 	@echo ... beecrowd_solutions/1012.obj
 	@echo ... beecrowd_solutions/1012.i
 	@echo ... beecrowd_solutions/1012.s
@@ -287,6 +325,9 @@ help:
 	@echo ... beecrowd_solutions/1015.obj
 	@echo ... beecrowd_solutions/1015.i
 	@echo ... beecrowd_solutions/1015.s
+	@echo ... class3/class_3.obj
+	@echo ... class3/class_3.i
+	@echo ... class3/class_3.s
 .PHONY : help
 
 
