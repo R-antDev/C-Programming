@@ -81,11 +81,25 @@ int main () {
 
 // factorial
 
-    int fact = 1;
-    for (int i = 1; i <= N; i++) {
-        fact *= i;
-    }
-    printf("Factorial of %d is : %d",N, fact);
+//    int fact = 1;
+//    for (int i = 1; i <= N; i++) {
+//        fact *= i;
+//    }
+//    printf("Factorial of %d is : %d",N, fact);
+//
+//
+// sum with while loop
+
+int sum = 0, i = 0;
+while(i <= N){
+    sum += i;
+    i++;
+}
+printf("%d", sum);
+
+// homework -> Multiplication table: 5 * 1 = 5
+
+
 
 }
 
