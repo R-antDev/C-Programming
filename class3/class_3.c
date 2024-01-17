@@ -69,11 +69,11 @@ int main () {
 
 // task 1
 
-//    int sum = 0;
-//    for (int i = 0; i <= N; ++i) {
-//        sum += pow(i,2);
-//    }
-//    printf("Sum of series: %d", sum);
+    int sum = 0;
+    for (int i = 0; i <= N; ++i) {
+        sum += pow(i,2);
+    }
+    printf("Sum of series: %d", sum);
 
 
 // homework
@@ -89,13 +89,13 @@ int main () {
 //
 //
 // sum with while loop
-
-int sum = 0, i = 0;
-while(i <= N){
-    sum += i;
-    i++;
-}
-printf("%d", sum);
+//
+//int sum = 0, i = 0;
+//while(i <= N){
+//    sum += i;
+//    i++;
+//}
+//printf("%d", sum);
 
 // homework -> Multiplication table: 5 * 1 = 5
 

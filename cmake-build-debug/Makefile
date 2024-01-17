@@ -180,6 +180,191 @@ class3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/build
 .PHONY : class3/fast
 
+#=============================================================================
+# Target rules for targets named square_series
+
+# Build rule for target.
+square_series: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 square_series
+.PHONY : square_series
+
+# fast build rule for target.
+square_series/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\square_series.dir\build.make CMakeFiles/square_series.dir/build
+.PHONY : square_series/fast
+
+#=============================================================================
+# Target rules for targets named cube_series
+
+# Build rule for target.
+cube_series: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cube_series
+.PHONY : cube_series
+
+# fast build rule for target.
+cube_series/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cube_series.dir\build.make CMakeFiles/cube_series.dir/build
+.PHONY : cube_series/fast
+
+#=============================================================================
+# Target rules for targets named factorial
+
+# Build rule for target.
+factorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 factorial
+.PHONY : factorial
+
+# fast build rule for target.
+factorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\factorial.dir\build.make CMakeFiles/factorial.dir/build
+.PHONY : factorial/fast
+
+#=============================================================================
+# Target rules for targets named prime_number
+
+# Build rule for target.
+prime_number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 prime_number
+.PHONY : prime_number
+
+# fast build rule for target.
+prime_number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_number.dir\build.make CMakeFiles/prime_number.dir/build
+.PHONY : prime_number/fast
+
+#=============================================================================
+# Target rules for targets named calculator
+
+# Build rule for target.
+calculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 calculator
+.PHONY : calculator
+
+# fast build rule for target.
+calculator/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/build
+.PHONY : calculator/fast
+
+assignment_2/calculator_with_switch_case.obj: assignment_2/calculator_with_switch_case.c.obj
+.PHONY : assignment_2/calculator_with_switch_case.obj
+
+# target to build an object file
+assignment_2/calculator_with_switch_case.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/assignment_2/calculator_with_switch_case.c.obj
+.PHONY : assignment_2/calculator_with_switch_case.c.obj
+
+assignment_2/calculator_with_switch_case.i: assignment_2/calculator_with_switch_case.c.i
+.PHONY : assignment_2/calculator_with_switch_case.i
+
+# target to preprocess a source file
+assignment_2/calculator_with_switch_case.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/assignment_2/calculator_with_switch_case.c.i
+.PHONY : assignment_2/calculator_with_switch_case.c.i
+
+assignment_2/calculator_with_switch_case.s: assignment_2/calculator_with_switch_case.c.s
+.PHONY : assignment_2/calculator_with_switch_case.s
+
+# target to generate assembly for a file
+assignment_2/calculator_with_switch_case.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/assignment_2/calculator_with_switch_case.c.s
+.PHONY : assignment_2/calculator_with_switch_case.c.s
+
+assignment_2/cube_series.obj: assignment_2/cube_series.c.obj
+.PHONY : assignment_2/cube_series.obj
+
+# target to build an object file
+assignment_2/cube_series.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cube_series.dir\build.make CMakeFiles/cube_series.dir/assignment_2/cube_series.c.obj
+.PHONY : assignment_2/cube_series.c.obj
+
+assignment_2/cube_series.i: assignment_2/cube_series.c.i
+.PHONY : assignment_2/cube_series.i
+
+# target to preprocess a source file
+assignment_2/cube_series.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cube_series.dir\build.make CMakeFiles/cube_series.dir/assignment_2/cube_series.c.i
+.PHONY : assignment_2/cube_series.c.i
+
+assignment_2/cube_series.s: assignment_2/cube_series.c.s
+.PHONY : assignment_2/cube_series.s
+
+# target to generate assembly for a file
+assignment_2/cube_series.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cube_series.dir\build.make CMakeFiles/cube_series.dir/assignment_2/cube_series.c.s
+.PHONY : assignment_2/cube_series.c.s
+
+assignment_2/factorial.obj: assignment_2/factorial.c.obj
+.PHONY : assignment_2/factorial.obj
+
+# target to build an object file
+assignment_2/factorial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\factorial.dir\build.make CMakeFiles/factorial.dir/assignment_2/factorial.c.obj
+.PHONY : assignment_2/factorial.c.obj
+
+assignment_2/factorial.i: assignment_2/factorial.c.i
+.PHONY : assignment_2/factorial.i
+
+# target to preprocess a source file
+assignment_2/factorial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\factorial.dir\build.make CMakeFiles/factorial.dir/assignment_2/factorial.c.i
+.PHONY : assignment_2/factorial.c.i
+
+assignment_2/factorial.s: assignment_2/factorial.c.s
+.PHONY : assignment_2/factorial.s
+
+# target to generate assembly for a file
+assignment_2/factorial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\factorial.dir\build.make CMakeFiles/factorial.dir/assignment_2/factorial.c.s
+.PHONY : assignment_2/factorial.c.s
+
+assignment_2/prime-number.obj: assignment_2/prime-number.c.obj
+.PHONY : assignment_2/prime-number.obj
+
+# target to build an object file
+assignment_2/prime-number.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_number.dir\build.make CMakeFiles/prime_number.dir/assignment_2/prime-number.c.obj
+.PHONY : assignment_2/prime-number.c.obj
+
+assignment_2/prime-number.i: assignment_2/prime-number.c.i
+.PHONY : assignment_2/prime-number.i
+
+# target to preprocess a source file
+assignment_2/prime-number.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_number.dir\build.make CMakeFiles/prime_number.dir/assignment_2/prime-number.c.i
+.PHONY : assignment_2/prime-number.c.i
+
+assignment_2/prime-number.s: assignment_2/prime-number.c.s
+.PHONY : assignment_2/prime-number.s
+
+# target to generate assembly for a file
+assignment_2/prime-number.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_number.dir\build.make CMakeFiles/prime_number.dir/assignment_2/prime-number.c.s
+.PHONY : assignment_2/prime-number.c.s
+
+assignment_2/square_series.obj: assignment_2/square_series.c.obj
+.PHONY : assignment_2/square_series.obj
+
+# target to build an object file
+assignment_2/square_series.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\square_series.dir\build.make CMakeFiles/square_series.dir/assignment_2/square_series.c.obj
+.PHONY : assignment_2/square_series.c.obj
+
+assignment_2/square_series.i: assignment_2/square_series.c.i
+.PHONY : assignment_2/square_series.i
+
+# target to preprocess a source file
+assignment_2/square_series.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\square_series.dir\build.make CMakeFiles/square_series.dir/assignment_2/square_series.c.i
+.PHONY : assignment_2/square_series.c.i
+
+assignment_2/square_series.s: assignment_2/square_series.c.s
+.PHONY : assignment_2/square_series.s
+
+# target to generate assembly for a file
+assignment_2/square_series.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\square_series.dir\build.make CMakeFiles/square_series.dir/assignment_2/square_series.c.s
+.PHONY : assignment_2/square_series.c.s
+
 beecrowd_solutions/1012.obj: beecrowd_solutions/1012.c.obj
 .PHONY : beecrowd_solutions/1012.obj
 
@@ -312,7 +497,27 @@ help:
 	@echo ... 1013
 	@echo ... 1014
 	@echo ... 1015
+	@echo ... calculator
 	@echo ... class3
+	@echo ... cube_series
+	@echo ... factorial
+	@echo ... prime_number
+	@echo ... square_series
+	@echo ... assignment_2/calculator_with_switch_case.obj
+	@echo ... assignment_2/calculator_with_switch_case.i
+	@echo ... assignment_2/calculator_with_switch_case.s
+	@echo ... assignment_2/cube_series.obj
+	@echo ... assignment_2/cube_series.i
+	@echo ... assignment_2/cube_series.s
+	@echo ... assignment_2/factorial.obj
+	@echo ... assignment_2/factorial.i
+	@echo ... assignment_2/factorial.s
+	@echo ... assignment_2/prime-number.obj
+	@echo ... assignment_2/prime-number.i
+	@echo ... assignment_2/prime-number.s
+	@echo ... assignment_2/square_series.obj
+	@echo ... assignment_2/square_series.i
+	@echo ... assignment_2/square_series.s
 	@echo ... beecrowd_solutions/1012.obj
 	@echo ... beecrowd_solutions/1012.i
 	@echo ... beecrowd_solutions/1012.s

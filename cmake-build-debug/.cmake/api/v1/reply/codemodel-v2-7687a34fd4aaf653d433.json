@@ -19,7 +19,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -38,7 +43,12 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -74,9 +84,44 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calculator-Debug-0caca6f29d4dc04c4502.json",
+					"name" : "calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "class3::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-class3-Debug-340f9d1d433235edc36f.json",
 					"name" : "class3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cube_series::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cube_series-Debug-e1cd6319664b1fca5662.json",
+					"name" : "cube_series",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "factorial::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-factorial-Debug-c0d169eef6dd82cb5c5b.json",
+					"name" : "factorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prime_number::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prime_number-Debug-47c9150860cf45bbc50f.json",
+					"name" : "prime_number",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "square_series::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-square_series-Debug-e32e139ebd51c1050607.json",
+					"name" : "square_series",
 					"projectIndex" : 0
 				}
 			]

@@ -52,4 +52,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1014.dir/DependInfo.cmake"
   "CMakeFiles/1015.dir/DependInfo.cmake"
   "CMakeFiles/class3.dir/DependInfo.cmake"
+  "CMakeFiles/square_series.dir/DependInfo.cmake"
+  "CMakeFiles/cube_series.dir/DependInfo.cmake"
+  "CMakeFiles/factorial.dir/DependInfo.cmake"
+  "CMakeFiles/prime_number.dir/DependInfo.cmake"
+  "CMakeFiles/calculator.dir/DependInfo.cmake"
   )

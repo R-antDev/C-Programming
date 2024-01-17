@@ -67,6 +67,11 @@ all: CMakeFiles/1013.dir/all
 all: CMakeFiles/1014.dir/all
 all: CMakeFiles/1015.dir/all
 all: CMakeFiles/class3.dir/all
+all: CMakeFiles/square_series.dir/all
+all: CMakeFiles/cube_series.dir/all
+all: CMakeFiles/factorial.dir/all
+all: CMakeFiles/prime_number.dir/all
+all: CMakeFiles/calculator.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +84,11 @@ clean: CMakeFiles/1013.dir/clean
 clean: CMakeFiles/1014.dir/clean
 clean: CMakeFiles/1015.dir/clean
 clean: CMakeFiles/class3.dir/clean
+clean: CMakeFiles/square_series.dir/clean
+clean: CMakeFiles/cube_series.dir/clean
+clean: CMakeFiles/factorial.dir/clean
+clean: CMakeFiles/prime_number.dir/clean
+clean: CMakeFiles/calculator.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -192,7 +202,7 @@ CMakeFiles/1015.dir/clean:
 CMakeFiles/class3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target class3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target class3"
 .PHONY : CMakeFiles/class3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -210,6 +220,136 @@ class3: CMakeFiles/class3.dir/rule
 CMakeFiles/class3.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class3.dir\build.make CMakeFiles/class3.dir/clean
 .PHONY : CMakeFiles/class3.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/square_series.dir
+
+# All Build rule for target.
+CMakeFiles/square_series.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\square_series.dir\build.make CMakeFiles/square_series.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\square_series.dir\build.make CMakeFiles/square_series.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target square_series"
+.PHONY : CMakeFiles/square_series.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/square_series.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/square_series.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/square_series.dir/rule
+
+# Convenience name for target.
+square_series: CMakeFiles/square_series.dir/rule
+.PHONY : square_series
+
+# clean rule for target.
+CMakeFiles/square_series.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\square_series.dir\build.make CMakeFiles/square_series.dir/clean
+.PHONY : CMakeFiles/square_series.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cube_series.dir
+
+# All Build rule for target.
+CMakeFiles/cube_series.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cube_series.dir\build.make CMakeFiles/cube_series.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cube_series.dir\build.make CMakeFiles/cube_series.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target cube_series"
+.PHONY : CMakeFiles/cube_series.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cube_series.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cube_series.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/cube_series.dir/rule
+
+# Convenience name for target.
+cube_series: CMakeFiles/cube_series.dir/rule
+.PHONY : cube_series
+
+# clean rule for target.
+CMakeFiles/cube_series.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cube_series.dir\build.make CMakeFiles/cube_series.dir/clean
+.PHONY : CMakeFiles/cube_series.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/factorial.dir
+
+# All Build rule for target.
+CMakeFiles/factorial.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\factorial.dir\build.make CMakeFiles/factorial.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\factorial.dir\build.make CMakeFiles/factorial.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target factorial"
+.PHONY : CMakeFiles/factorial.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/factorial.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/factorial.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/factorial.dir/rule
+
+# Convenience name for target.
+factorial: CMakeFiles/factorial.dir/rule
+.PHONY : factorial
+
+# clean rule for target.
+CMakeFiles/factorial.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\factorial.dir\build.make CMakeFiles/factorial.dir/clean
+.PHONY : CMakeFiles/factorial.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prime_number.dir
+
+# All Build rule for target.
+CMakeFiles/prime_number.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_number.dir\build.make CMakeFiles/prime_number.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_number.dir\build.make CMakeFiles/prime_number.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target prime_number"
+.PHONY : CMakeFiles/prime_number.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prime_number.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/prime_number.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/prime_number.dir/rule
+
+# Convenience name for target.
+prime_number: CMakeFiles/prime_number.dir/rule
+.PHONY : prime_number
+
+# clean rule for target.
+CMakeFiles/prime_number.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\prime_number.dir\build.make CMakeFiles/prime_number.dir/clean
+.PHONY : CMakeFiles/prime_number.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/calculator.dir
+
+# All Build rule for target.
+CMakeFiles/calculator.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target calculator"
+.PHONY : CMakeFiles/calculator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/calculator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/calculator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Ant-Dev\C-Programming\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/calculator.dir/rule
+
+# Convenience name for target.
+calculator: CMakeFiles/calculator.dir/rule
+.PHONY : calculator
+
+# clean rule for target.
+CMakeFiles/calculator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\calculator.dir\build.make CMakeFiles/calculator.dir/clean
+.PHONY : CMakeFiles/calculator.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
